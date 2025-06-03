@@ -52,6 +52,7 @@ cmake --build . --config Release
 ```
 
 ### 项目结构
+```plaintext
 QtMusicPlayer/
 ├── CMakeLists.txt          # 构建配置
 ├── main.cpp                # 程序入口
@@ -61,5 +62,5 @@ QtMusicPlayer/
 ├── kmusicinf.h/cpp         # 音乐元数据结构
 ├── images/                 # 各项图标的图片
 └── musics/                 # 存放音乐的文件夹（不强制要求放在这里）
-
+```
 
