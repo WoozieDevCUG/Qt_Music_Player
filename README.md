@@ -60,31 +60,6 @@ QtMusicPlayer/
 ├── kxmusicsearch.h/cpp     # 音乐搜索逻辑
 ├── kmusicinf.h/cpp         # 音乐元数据结构
 ├── images/                 # 各项图标的图片
-└── fonts/                  # 资源文件
+└── musics/                 # 存放音乐的文件夹（不强制要求放在这里）
 
 
-控件实例化
-
-布局管理
-
-样式设置
-
-示例代码片段：
-
-cpp
-// 创建播放按钮
-m_playButton = new QPushButton("播放", this);
-m_playButton->setIcon(QIcon(":/images/play.png"));
-m_playButton->setStyleSheet("QPushButton { padding: 5px; }");
-
-// 添加到布局
-QHBoxLayout *controlLayout = new QHBoxLayout();
-controlLayout->addWidget(m_playButton);
-依赖模块
-Qt模块	用途
-QtMultimedia	音频播放核心功能
-QtNetwork	网络音乐搜索和下载
-QtWidgets	图形界面组件
-QtCharts	可视化音频分析（预留功能）
-许可协议
-本项目采用 MIT License 开源。
